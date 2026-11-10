@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services | Lumen Photography</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="bg-neutral-950 text-neutral-300 antialiased min-h-screen flex flex-col">
+  <header class="sticky top-0 z-50 bg-neutral-950/95 backdrop-blur border-b border-neutral-800">
+    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2 text-white text-xl font-semibold"><i
+          class="fa-solid fa-camera text-amber-300"></i> Lumen</a>
+      <nav class="hidden md:flex gap-8 text-sm"><a href="index.html"
+          class="text-neutral-300 hover:text-amber-300 transition">Home</a><a href="about.html"
+          class="text-neutral-300 hover:text-amber-300 transition">About</a><a href="portfolio.html"
+          class="text-neutral-300 hover:text-amber-300 transition">Portfolio</a><a href="services.html"
+          class="text-amber-300 transition">Services</a><a href="contact.html"
+          class="text-neutral-300 hover:text-amber-300 transition">Contact</a></nav>
+      <button id="menuBtn" class="md:hidden text-white text-xl" aria-label="Menu"><i
+          class="fa-solid fa-bars"></i></button>
+    </div>
+    <nav id="menu" class="hidden md:hidden px-4 pb-2 bg-neutral-950"><a href="index.html"
+        class="block py-3 border-b border-neutral-800 text-neutral-300">Home</a><a href="about.html"
+        class="block py-3 border-b border-neutral-800 text-neutral-300">About</a><a href="portfolio.html"
+        class="block py-3 border-b border-neutral-800 text-neutral-300">Portfolio</a><a href="services.html"
+        class="block py-3 border-b border-neutral-800 text-amber-300">Services</a><a href="contact.html"
+        class="block py-3 border-b border-neutral-800 text-neutral-300">Contact</a></nav>
+  </header>
+  <main class="flex-1">
+    <section class="max-w-6xl mx-auto px-4 pt-14 pb-8">
+      <h1 class="text-3xl sm:text-4xl font-semibold text-white">Services</h1>
+      <p class="mt-3 text-neutral-400 max-w-xl">Simple packages. Custom quotes are always welcome.</p>
+    </section>
+    <section class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6">
+      <div class="bg-neutral-900 rounded p-6 border border-neutral-800">
+        <h3 class="text-white text-xl font-medium">Mini</h3>
+        <p class="text-sm text-neutral-400">1 hour session</p>
+        <p class="text-3xl text-amber-300 font-semibold my-4">$150</p>
+        <ul class="space-y-2 text-sm mb-6">
+          <li><i class='fa-solid fa-check text-amber-300 mr-2'></i>1 location</li>
+          <li><i class='fa-solid fa-check text-amber-300 mr-2'></i>20 edited photos</li>
+          <li><i class='fa-solid fa-check text-amber-300 mr-2'></i>Online gallery</li>
+        </ul>
+        <a href="contact.html"
+          class="inline-block border border-neutral-600 text-white px-6 py-3 rounded hover:border-amber-300 hover:text-amber-300 transition w-full text-center">Book
+          now</a>
+      </div>
+      <div class="bg-neutral-900 rounded p-6 border border-amber-300">
+        <h3 class="text-white text-xl font-medium">Standard</h3>
+        <p class="text-sm text-neutral-400">3 hour session</p>
+        <p class="text-3xl text-amber-300 font-semibold my-4">$400</p>
+        <ul class="space-y-2 text-sm mb-6">
+          <li><i class='fa-solid fa-check text-amber-300 mr-2'></i>2 locations</li>
+          <li><i class='fa-solid fa-check text-amber-300 mr-2'></i>60 edited photos</li>
+          <li><i class='fa-solid fa-check text-amber-300 mr-2'></i>Online gallery</li>
+          <li><i class='fa-solid fa-check text-amber-300 mr-2'></i>Print release</li>
+        </ul>
+        <a href="contact.html"
+          class="inline-block bg-amber-300 text-neutral-950 font-medium px-6 py-3 rounded hover:bg-amber-200 transition w-full text-center">Book
+          now</a>
+      </div>
+      <div class="bg-neutral-900 rounded p-6 border border-neutral-800">
+        <h3 class="text-white text-xl font-medium">Wedding</h3>
+        <p class="text-sm text-neutral-400">Full day</p>
+        <p class="text-3xl text-amber-300 font-semibold my-4">$1,800</p>
+        <ul class="space-y-2 text-sm mb-6">
+          <li><i class='fa-solid fa-check text-amber-300 mr-2'></i>8 hours coverage</li>
+          <li><i class='fa-solid fa-check text-amber-300 mr-2'></i>400+ edited photos</li>
+          <li><i class='fa-solid fa-check text-amber-300 mr-2'></i>Second photographer</li>
+          <li><i class='fa-solid fa-check text-amber-300 mr-2'></i>Printed album</li>
+        </ul>
+        <a href="contact.html"
+          class="inline-block border border-neutral-600 text-white px-6 py-3 rounded hover:border-amber-300 hover:text-amber-300 transition w-full text-center">Book
+          now</a>
+      </div>
+    </section>
+    <section class="max-w-6xl mx-auto px-4 mt-14">
+      <h2 class="text-2xl font-semibold text-white mb-6">Add-ons</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
+        <div class="flex items-center gap-3">
+          <i class="fa-solid fa-print text-amber-300 w-6 text-center"></i>Prints & albums
+        </div>
+        <div class="flex items-center gap-3">
+          <i class="fa-solid fa-wand-magic-sparkles text-amber-300 w-6 text-center"></i>Retouching
+        </div>
+        <div class="flex items-center gap-3">
+          <i class="fa-solid fa-plane text-amber-300 w-6 text-center"></i>Travel shoots
+        </div>
+        <div class="flex items-center gap-3">
+          <i class="fa-solid fa-video text-amber-300 w-6 text-center"></i>Short video clips
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="border-t border-neutral-800 mt-16">
+    <div class="max-w-6xl mx-auto px-4 py-10 grid gap-8 sm:grid-cols-2 text-sm">
+      <div>
+        <a href="index.html" class="flex items-center gap-2 text-white text-lg font-semibold">
+          <i class="fa-solid fa-camera text-amber-300"></i> Lumen
+        </a>
+        <p class="mt-3 text-neutral-400">Portraits, weddings and travel photography.</p>
+      </div>
+      <div class="space-y-2 sm:justify-self-end">
+        <p><i class="fa-solid fa-envelope w-5 text-amber-300"></i> hello@lumenphoto.com</p>
+        <p><i class="fa-solid fa-phone w-5 text-amber-300"></i> +1 555 123 4567</p>
+        <div class="flex gap-4 pt-2 text-lg">
+          <a href="#" aria-label="Instagram" class="hover:text-amber-300"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook" class="hover:text-amber-300"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" aria-label="YouTube" class="hover:text-amber-300"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="text-center text-xs text-neutral-500 pb-6">&copy; 2026 Lumen Photography. All rights reserved.</p>
+  </footer>
+  <script>document.getElementById('menuBtn').onclick = () => document.getElementById('menu').classList.toggle('hidden');</script>
+</body>
+
+</html>
